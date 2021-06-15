@@ -6,7 +6,7 @@ spec:
   hosts:
   - "*"
   gateways:
-  - leaf2-gateway
+  - leaf1-gateway
   http:
   - route:
     - destination:

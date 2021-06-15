@@ -12,7 +12,7 @@ public class ClientService {
     @Value("${leaf1.hostname}")
     private String hostname;
 
-    @Value("${leaf1.port}")
+    @Value("${leaf1.portnum}")
     private String port;
 
     private String path = "/leaf1";
