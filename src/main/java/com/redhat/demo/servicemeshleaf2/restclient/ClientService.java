@@ -24,6 +24,6 @@ public class ClientService {
     public String callLeaf1() {
         String url = "http://" + hostname + ":" + port + path;
         ResponseEntity<String> response = restTemplate.getForEntity(url, String.class);
-        return "leaf2 -> " + response.getBody();
+        return response.getBody();
     }
 }
