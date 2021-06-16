@@ -25,7 +25,7 @@ public class LeafController {
     @GetMapping("/callleaf1")
     public String callLeaf1() {
         String response = clientService.callLeaf1();
-        StringBuilder finalResponse = new StringBuilder("leaf2 ")
+        StringBuilder finalResponse = new StringBuilder("leaf2 v1.1")
                 .append(callCount.incrementAndGet())
                 .append(" -> ")
                 .append(response);
